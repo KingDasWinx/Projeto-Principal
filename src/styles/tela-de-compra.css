@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px 20px;
+    padding: 3px 20px;
     justify-content: space-between;
 
 
@@ -12,8 +12,8 @@
 
 .btn-voltar {
     display: flex;
-    width: 42px;
-    height: 42px;
+    width: 38px;
+    height: 38px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -23,8 +23,8 @@
 }
 
 .back {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
     margin-right: 2px;
     flex-shrink: 0;
 }
@@ -33,7 +33,7 @@
     color: var(--branco-fundo, #E0DCEB);
     text-align: center;
     font-family: Roboto Condensed;
-    font-size: 30px;
+    font-size: 26px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -50,9 +50,8 @@
 .product-price {
     color: var(--branco-fundo, #E0DCEB);
     text-align: center;
-    /* Login - Outras Opçoes de login */
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -61,7 +60,7 @@
 .product-price-color {
     color: var(--branco-fundo, #D9D9D9);
     font-family: Rubik;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -82,7 +81,7 @@
     color: var(--cinza-quase-preto, #343434);
     text-align: center;
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -94,9 +93,8 @@
 
 .comentarios-e-avaliacoes {
     display: flex;
-    padding: 20px;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
     flex: 1 0 0;
     align-self: stretch;
@@ -106,9 +104,21 @@
     color: var(--cinza-quase-preto, #343434);
     font-family: Rubik;
     font-size: 32px;
+    align-items: flex-start;
     font-style: normal;
+    align-items: start;
     font-weight: 500;
     line-height: normal;
+}
+
+.frame-447-1 {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    align-self: stretch;
 }
 
 .frame-447 {
@@ -117,13 +127,13 @@
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 56px;
+    gap: 35px;
     flex-wrap: wrap;
 }
 
 .comentario {
     display: flex;
-    width: 518px;
+    width: 370px;
     padding: 10px;
     flex-direction: column;
     align-items: flex-start;
@@ -155,8 +165,8 @@
 }
 
 .usuario-foto-perfil {
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
     border-radius: 200px;
     background: lightgray -17.439px 0px / 170.572% 127.914% no-repeat;
 }
@@ -169,12 +179,13 @@
     gap: 10px;
 }
 
+
 .usuario-nome {
     color: var(--cinza-quase-preto, #343434);
     font-family: Rubik;
-    font-size: 18px;
+    font-size: 13px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 550;
     line-height: normal;
 }
 
@@ -182,19 +193,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -4px;
     gap: 2px;
 }
 
 .star {
-    width: 25px;
-    height: 25px;
+    width: 12px;
+    height: 12px;
 }
 
 .data-avaliacao {
     color: var(--cinza, #8E8E8E);
 
     font-family: Rubik;
-    font-size: 13px;
+    font-size: 9.5px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -204,7 +216,7 @@
     color: var(--cinza, #8E8E8E);
 
     font-family: Rubik;
-    font-size: 13px;
+    font-size: 9.5px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -224,8 +236,9 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 11px;
     font-style: normal;
+    margin-top: -6px;
     font-weight: 600;
     line-height: normal;
 }
@@ -234,8 +247,9 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 12.5px;
     font-style: normal;
+    margin-top: -8px;
     font-weight: 400;
     line-height: normal;
     align-self: stretch;
@@ -247,15 +261,27 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-top: -6px;
     gap: 12px;
     align-self: stretch;
+}
+
+.frame-439-1 {
+    display: flex;
+    padding: 1px 12px;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+    margin-top: -6px;
+    align-self: stretch;
+    gap: 42px;
 }
 
 .recomenda-o-produto {
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -265,18 +291,11 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
+    margin-top: -6px;
     font-weight: 400;
     line-height: normal;
-}
-
-.frame-439 {
-    display: flex;
-    padding: 6px 12px;
-    align-items: flex-start;
-
-    align-self: stretch;
 }
 
 .frame-444 {
@@ -291,7 +310,7 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -301,25 +320,28 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 12.5px;
     font-style: normal;
     font-weight: 400;
+    margin-top: -6px;
     line-height: normal;
 }
 
 .frame-445 {
     display: flex;
-    padding: 12px 4px;
+    margin-top: 10px;
+    padding: 1px 4px;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
 }
 
 .cor-do-produto {
+
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -331,6 +353,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    margin-top: -9px;
     row-gap: 2px;
     flex-wrap: wrap;
 }
@@ -339,7 +362,7 @@
     color: var(--cinza-quase-preto, #343434);
 
     font-family: Rubik;
-    font-size: 14px;
+    font-size: 12.5px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -365,6 +388,10 @@
     border: 1px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
     background: #D6D6D6;
     box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.50) inset;
+}
+
+.frame-439-2 {
+    margin-left: 7px;
 }
 
 .frame-438 {
@@ -394,13 +421,14 @@
     font-family: Rubik;
     font-size: 14px;
     font-style: normal;
+    margin-top: -4px;
     font-weight: 400;
     line-height: normal;
 }
 
 .frame-440 {
     display: flex;
-    padding: 12px 0px;
+    padding: 2px 1px;
     align-items: center;
     align-content: center;
     gap: 6px;
@@ -409,14 +437,12 @@
 }
 
 .foto-do-produto-imagem {
-    width: 90px;
-    height: 50.667px;
+    width: 60px;
+    height: 35px;
     border-radius: 6px;
     border: 2px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-
-
 
 
 /*--------------------------------------------------------------------------*/
