@@ -12,8 +12,8 @@
 
 .btn-voltar {
     display: flex;
-    width: 38px;
-    height: 38px;
+    width: 34px;
+    height: 34px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -23,8 +23,8 @@
 }
 
 .back {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     margin-right: 2px;
     flex-shrink: 0;
 }
