@@ -1,12 +1,12 @@
 /*------------------------SUB-HEADER------------------------*/
+
 .sub-header-global-compra-direta {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3px 20px;
+    height: 58px;
+    padding: 3px 10px;
     justify-content: space-between;
-
-
     background: var(--roxo-principal, #483D8B);
 }
 
@@ -37,6 +37,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    padding-top: 15px;
 }
 
 .area-infoscompra-header {
@@ -51,16 +52,17 @@
     color: var(--branco-fundo, #E0DCEB);
     text-align: center;
     font-family: Rubik;
-    font-size: 10px;
+    font-size: 13px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 15px;
 }
 
 .product-price-color {
     color: var(--branco-fundo, #D9D9D9);
     font-family: Rubik;
-    font-size: 12px;
+    font-size: 13.5px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -68,7 +70,9 @@
 
 .btn-compraragora {
     display: flex;
-    padding: 10px;
+    width: 111px;
+    height: 39px;
+    padding: 6px;
     justify-content: center;
     align-items: center;
     gap: 10px;
@@ -80,11 +84,13 @@
 .buy-now {
     color: var(--cinza-quase-preto, #343434);
     text-align: center;
-    font-family: Rubik;
-    font-size: 10px;
+    font-family: Rubik; 
+    font-size: 12px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    margin-top: 15px;
 }
 
 /*--------------------------------------------------------------------------*/
@@ -113,7 +119,7 @@
 
 .frame-447-1 {
     display: flex;
-    padding: 20px;
+    padding: 10px;
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
@@ -123,7 +129,6 @@
 
 .frame-447 {
     display: flex;
-    padding: 12px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
@@ -133,7 +138,7 @@
 
 .comentario {
     display: flex;
-    width: 370px;
+    width: 400px;
     padding: 10px;
     flex-direction: column;
     align-items: flex-start;
@@ -207,6 +212,7 @@
 
     font-family: Rubik;
     font-size: 9.5px;
+    margin-top: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -217,6 +223,7 @@
 
     font-family: Rubik;
     font-size: 9.5px;
+    margin-top: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -272,7 +279,7 @@
     align-items: flex-start;
     justify-content: start;
     flex-direction: row;
-    margin-top: -6px;
+    margin-top: -15px;
     align-self: stretch;
     gap: 42px;
 }
@@ -293,7 +300,7 @@
     font-family: Rubik;
     font-size: 13px;
     font-style: normal;
-    margin-top: -6px;
+    margin-top: -24px;
     font-weight: 400;
     line-height: normal;
 }
@@ -323,13 +330,13 @@
     font-size: 12.5px;
     font-style: normal;
     font-weight: 400;
-    margin-top: -6px;
+    margin-top: -24px;
     line-height: normal;
 }
 
 .frame-445 {
     display: flex;
-    margin-top: 10px;
+    margin-top: 12px;
     padding: 1px 4px;
     flex-direction: column;
     align-items: flex-start;
@@ -353,7 +360,7 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    margin-top: -9px;
+    margin-top: -27px;
     row-gap: 2px;
     flex-wrap: wrap;
 }
@@ -421,14 +428,14 @@
     font-family: Rubik;
     font-size: 14px;
     font-style: normal;
-    margin-top: -4px;
+    margin-top: -16px;
     font-weight: 400;
     line-height: normal;
 }
 
 .frame-440 {
     display: flex;
-    padding: 2px 1px;
+    padding: 2px 12px;
     align-items: center;
     align-content: center;
     gap: 6px;
@@ -439,6 +446,7 @@
 .foto-do-produto-imagem {
     width: 60px;
     height: 35px;
+    margin-top: -12px;
     border-radius: 6px;
     border: 2px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
     background: url(<path-to-image>), lightgray 50% / cover no-repeat;
