@@ -1,0 +1,140 @@
+/*----sacola-de-compras----*/
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+dialog::backdrop{
+    background-color: rgb(0, 0, 0 / .3);
+}
+
+.tela-sacola {
+    margin-top: 120px;
+    margin-left: 9%;
+    width: 81%;
+    height: 430px;
+    padding: 0px 17px 17px 17px;
+    flex-direction: column;
+    z-index: 999999999;
+    border-radius: 12px;
+    border: 2px solid var(--cinza-claro-bordas-inputs, #C2BAD8);
+    background: #ffffff;
+    box-shadow: 0px 6px 20px 2px rgba(0, 0, 0, 0.25);
+    outline: none;
+}
+
+.frame-132 {
+    display: flex;
+    height: 59px;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-bottom: 2px solid #483B8D;
+    background: #FFF;
+}
+
+.container-sacola{
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.sacola1 {
+    color: var(--roxo-principal, #483D8B);
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+.itens-frete {
+    color: var(--cinza-quase-preto, #343434);
+    font-family: Rubik;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.vector-1 {
+    width: 11809.5px;
+    height: 4891px;
+    stroke-width: 1px;
+    stroke: #000;
+}
+
+.sacola2 {
+    color: var(--roxo-principal, #483D8B);
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.container-limpar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+   
+}
+
+.btn-sair {
+    cursor: pointer;
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: var(--roxo-principal, #483D8B);
+    box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.50);
+}
+
+.frame-415 {
+    cursor: pointer;
+    display: flex;
+    padding: 7px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid var(--roxo-principal, #483D8B);
+}
+
+.delete {
+    fill: #483B8D;
+    
+}
+
+.limpar-sacola {    
+    color: var(--roxo-principal, #483D8B);
+    text-align: center;
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 820px) {
+    .limpar-sacola{
+        font-size: 8px;
+    }
+    .delete{
+        width: 12px;
+        height: 12px;
+    }
+    .frame-415 {
+        padding: 4.5px;
+    }
+}

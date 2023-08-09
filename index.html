@@ -5,8 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="src/styles/sacola-de-compras.css">
   <link rel="stylesheet" href="/src/styles/style.css">
   <link rel="stylesheet" href="index.css">
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -42,7 +44,7 @@
     <div class="frame-181">
       <div class="frame-180">
         <div class="frame-130">
-          <ion-icon class="bag" name="bag"></ion-icon>
+          <a class="bag-button"> <ion-icon class="bag" name="bag"></ion-icon></a>
           <div class="frame-198 ">
             <span class="t">4</span>
           </div>
@@ -69,14 +71,61 @@
     </div>
   </header>
 
-  <div class="tela-do-site-1">
+  <!--INICIO DO HEADER DA SACOLA-->
+  <main>
+    <dialog class="tela-sacola">
 
-  </div>
+      <div class="frame-132">
+        <div class="container-sacola">
+          <span class="sacola1">
+            SACOLA
+          </span>
+          <span class="itens-frete">
+            4 Itens + Frete
+          </span>
+        </div>
 
-  <div class="tela-do-site-2">
+        <div class="vactor-1">
+        </div>
+        <span class="sacola2">
+        </span>
+        <div class="container-limpar">
+          <div class="frame-415">
+            <ion-icon class="delete" name="trash"></ion-icon>
+            <span class="limpar-sacola">
+              LIMPAR SACOLA
+            </span>
+          </div>
+          <a class="sair">
+            <div class="btn-sair">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <g clip-path="url(#clip0_345_72)">
+                  <path
+                    d="M1.93086 0.0197601C1.82461 0.0435104 1.72211 0.0835104 1.62711 0.138511C1.54086 0.18976 0.265859 1.44976 0.180859 1.56851C0.0546094 1.74476 0.00585938 1.89726 0.00585938 2.11851C0.00585938 2.32976 0.0508594 2.48476 0.162109 2.65226C0.198359 2.70601 1.04336 3.55976 2.84836 5.36476L5.48086 7.99976L2.84211 10.6398C1.14711 12.3373 0.187109 13.306 0.158359 13.351C0.0483594 13.5223 0.00710938 13.6623 0.00710938 13.8748C0.00585938 14.101 0.0533594 14.2523 0.180859 14.431C0.265859 14.5498 1.54086 15.8098 1.62711 15.861C1.96836 16.0598 2.38211 16.0398 2.69336 15.8085C2.72086 15.7873 3.92586 14.5885 5.37211 13.1448L7.99961 10.5185L10.6284 13.1448C12.0734 14.5885 13.2784 15.7873 13.3059 15.8085C13.3921 15.8723 13.4684 15.911 13.5859 15.9498C13.8459 16.0373 14.1246 16.0048 14.3721 15.861C14.4584 15.8098 15.7334 14.5498 15.8184 14.431C15.9446 14.2548 15.9934 14.1023 15.9934 13.881C15.9934 13.6735 15.9484 13.5185 15.8421 13.3535C15.8109 13.3048 14.9096 12.3948 13.1571 10.6398L10.5184 7.99976L13.1521 5.36476C15.9109 2.60476 15.8546 2.66351 15.9259 2.48601C16.0196 2.25226 16.0221 1.99601 15.9309 1.77101C15.8646 1.60601 15.8384 1.57476 15.1621 0.89601C14.8009 0.532261 14.4721 0.211011 14.4309 0.18101C14.2546 0.0547609 14.1021 0.00601101 13.8809 0.00601101C13.6734 0.00601101 13.5196 0.0497608 13.3559 0.156011C13.3046 0.188511 12.4509 1.03351 10.6409 2.84226L7.99961 5.48101L5.35961 2.84226C3.54211 1.02726 2.69461 0.188511 2.64336 0.15476C2.56336 0.103511 2.45711 0.0572605 2.35586 0.0285101C2.25711 0.00101089 2.03336 -0.00399017 1.93086 0.0197601Z"
+                    fill="#E0DCEB" />
+                </g>
+                <defs>
+                  <clipPath id="clip0_345_72">
+                    <rect width="16" height="16" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
 
-  </div>
+    </dialog>
+    <!--TERMINO DO HEADER DA SACOLA-->
 
+    <div class="tela-do-site-1">
+
+    </div>
+
+    <div class="tela-do-site-2">
+
+    </div>
+  </main>
   <div class="geral">
     <!--footer normal-->
     <footer class="footer-site">
@@ -150,8 +199,11 @@
       <img src="/src/assets/icon/icon-alternative/user.svg" alt="">
     </div>
 
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="src/javascript/popup.js"></script>
 </body>
 
 </html>
